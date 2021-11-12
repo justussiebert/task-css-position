@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Justus Siebert" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/normalize.css@latest/normalize.css"
+    />
+    <link rel="stylesheet" href="standard.css" />
+    <title>Task: css | position</title>
+  </head>
+  <body>
+    <header>
+      <h1>Aufgabe: CSS position ausprobieren</h1>
+    </header>
+    <main>
+      <section class="test-position-relative">
+        <h2>Beispiel position relative, mit ausgerückten headings</h2>
+        <article>
+          <h2>De bello gallico I</h2>
+          <p>
+            Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae,
+            aliam Aquitani, tertiam, qui ipsorum lingua Celtae, nostra Galli
+            appellantur. Hi omnes lingua, institutis, legibus inter se
+            differunt. Gallos ab Aquitanis Garunna flumen, a Belgis Matrona et
+            Sequana dividit. Horum omnium fortissimi sunt Belgae, propterea quod
+            a cultu atque humanitate provinciae longissime absunt minimeque ad
+            eos mercatores saepe commeant atque ea, quae ad effeminandos animos
+            pertinent, important proximique sunt Germanis, qui trans Rhenum
+            incolunt, quibuscum continentur bellum gerunt. Qua de causa Helvetii
+            quoque reliquos Gallos virtute praecedunt, quod fere cotidianis
+            proeliis cum Germanis contendunt, cum aut suis finibus eos prohibent
+            ut ipsi in eorum finibus bellum gerunt. Eorum una pars, quam Gallos
+            obtinere dictum est, initium capit a flumine Rhodano, continetur
+            Garunna flumine, Oceano, finibus Belgarum, attingit etiam ab
+            Sequanis et Helvetiis flumen Rhenums, vergit ad septentriones.
+            Belgae ab extremis Galliae finibus oriuntur, pertinent ad inferiorem
+            partem fluminis Rheni, spectant in septentrionem et orientem solem.
+            Aquitania a Garunna flumine ad Pyrenaeos montes et eam partem
+            Oceani, quae est ad Hispaniam, pertinet, spectat inter occasum solis
+            et septentriones.
+          </p>
+        </article>
+        <article>
+          <h2>De bello gallico II</h2>
+          <p>
+            Apud Helvetios longe nobilissimus fuit et ditissimus Orgetorix. Is
+            M. Messala M. Pisone consulibus regni cupiditate inductus
+            coniurationem nobilitatis fecit et civitati persuadet, ut de finibus
+            suis cum omnibus copiis exirent : perfacile esse, cum virtute
+            omnibus praestarent, totius Galliae imperio potiri. Id hoc facilius
+            iis persuasit, quod undique loci natura Helvetii continentur : una
+            ex parte flumine Rheno latissimo atque altissimo, qui agrium
+            Helvetium a Germanis dividit, altera ex parte monte Iura altissimo,
+            qui est inter Sequanos et Helvetios, tertia lacu Lemanno et flumine
+            Rhodano, qui provinciam nostram ab Helvetiis dividit. His rebus
+            fiebat ut et minus late vagarentur et minus facile finitimis bellum
+            inferre possent; qua ex parte homines bellandi cupidi magno dolore
+            adficiebantur. Pro multitudine autem hominum et pro gloria belli
+            atque fortitudinis angustos se fines habere arbitrabantur, qui in
+            longitudinem milia passuum CCXL, in latitudinem CLXX patebant.
+          </p>
+        </article>
+        <article>
+          <h2>De bello gallico III</h2>
+          <p>
+            His rebus adducti et auctoritate Orgetorigis permoti constituerant
+            ea quae ad profiscendum pertinerent comparare, iumetorum et carrorum
+            quam maximum numerum coemere, sementes quam maximas facere, ut in
+            itinere copia frumenti suppeteret, cum proximis civitatibus pacem et
+            amicitiam confirmare. Ad eas res conficiendas biennium sibi satis
+            esse duxerunt, in tertium annum profectionem lege confirmant. Ad eas
+            res conficiendas Orgetorix deligitur. Is sibi legationem ad
+            civitates suscepit. In eo itinere persuadet Castico Catamantaloedis
+            filio Sequano, cuius pater regnum in Sequanis multos annos
+            obtinuerat et ab senatu populi Romani amicus appellatus erat, ut
+            regnum in civitate sua occuparet, quod pater ante habuerat; itemque
+            Dumnorigo Haeduo, fratri Diviciaci, qui eo tempore principatum
+            obtinebat ac maxime plebi acceptus erat, ut idem conaretur persuadet
+            eique filiam suam in matrimonium dat.
+          </p>
+        </article>
+        <div class="hire-me"><p>Hire me!</p></div>
+      </section>
+      <hr />
+      <section class="test-position-absolute">
+        <h2>Beispiel position absolute</h2>
+        <article>
+          <h2>De bello gallico Ia</h2>
+          <p>
+            Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae,
+            aliam Aquitani, tertiam, qui ipsorum lingua Celtae, nostra Galli
+            appellantur. Hi omnes lingua, institutis, legibus inter se
+            differunt. Gallos ab Aquitanis Garunna flumen, a Belgis Matrona et
+            Sequana dividit. Horum omnium fortissimi sunt Belgae, propterea quod
+            a cultu atque humanitate provinciae longissime absunt minimeque ad
+            eos mercatores saepe commeant atque ea, quae ad effeminandos animos
+            pertinent, important proximique sunt Germanis, qui trans Rhenum
+            incolunt, quibuscum continentur bellum gerunt. Qua de causa Helvetii
+            quoque reliquos Gallos virtute praecedunt, quod fere cotidianis
+            proeliis cum Germanis contendunt, cum aut suis finibus eos prohibent
+            ut ipsi in eorum finibus bellum gerunt. Eorum una pars, quam Gallos
+            obtinere dictum est, initium capit a flumine Rhodano, continetur
+            Garunna flumine, Oceano, finibus Belgarum, attingit etiam ab
+            Sequanis et Helvetiis flumen Rhenums, vergit ad septentriones.
+            Belgae ab extremis Galliae finibus oriuntur, pertinent ad inferiorem
+            partem fluminis Rheni, spectant in septentrionem et orientem solem.
+            Aquitania a Garunna flumine ad Pyrenaeos montes et eam partem
+            Oceani, quae est ad Hispaniam, pertinet, spectat inter occasum solis
+            et septentriones.
+          </p>
+        </article>
+        <article>
+          <h2>De bello gallico IIa, position abs oben rechts</h2>
+          <p>
+            Apud Helvetios longe nobilissimus fuit et ditissimus Orgetorix. Is
+            M. Messala M. Pisone consulibus regni cupiditate inductus
+            coniurationem nobilitatis fecit et civitati persuadet, ut de finibus
+            suis cum omnibus copiis exirent : perfacile esse, cum virtute
+            omnibus praestarent, totius Galliae imperio potiri. Id hoc facilius
+            iis persuasit, quod undique loci natura Helvetii continentur : una
+            ex parte flumine Rheno latissimo atque altissimo, qui agrium
+            Helvetium a Germanis dividit, altera ex parte monte Iura altissimo,
+            qui est inter Sequanos et Helvetios, tertia lacu Lemanno et flumine
+            Rhodano, qui provinciam nostram ab Helvetiis dividit. His rebus
+            fiebat ut et minus late vagarentur et minus facile finitimis bellum
+            inferre possent; qua ex parte homines bellandi cupidi magno dolore
+            adficiebantur. Pro multitudine autem hominum et pro gloria belli
+            atque fortitudinis angustos se fines habere arbitrabantur, qui in
+            longitudinem milia passuum CCXL, in latitudinem CLXX patebant.
+          </p>
+        </article>
+        <article>
+          <h2>De bello gallico IIIa</h2>
+          <p>
+            His rebus adducti et auctoritate Orgetorigis permoti constituerant
+            ea quae ad profiscendum pertinerent comparare, iumetorum et carrorum
+            quam maximum numerum coemere, sementes quam maximas facere, ut in
+            itinere copia frumenti suppeteret, cum proximis civitatibus pacem et
+            amicitiam confirmare. Ad eas res conficiendas biennium sibi satis
+            esse duxerunt, in tertium annum profectionem lege confirmant. Ad eas
+            res conficiendas Orgetorix deligitur. Is sibi legationem ad
+            civitates suscepit. In eo itinere persuadet Castico Catamantaloedis
+            filio Sequano, cuius pater regnum in Sequanis multos annos
+            obtinuerat et ab senatu populi Romani amicus appellatus erat, ut
+            regnum in civitate sua occuparet, quod pater ante habuerat; itemque
+            Dumnorigo Haeduo, fratri Diviciaci, qui eo tempore principatum
+            obtinebat ac maxime plebi acceptus erat, ut idem conaretur persuadet
+            eique filiam suam in matrimonium dat.
+          </p>
+        </article>
+      </section>
+      <hr />
+      <section class="test-position-fixed">
+        <h2>Beispiel position fixed</h2>
+        <article>
+          <h2>De bello gallico Ib</h2>
+          <p>
+            Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae,
+            aliam Aquitani, tertiam, qui ipsorum lingua Celtae, nostra Galli
+            appellantur. Hi omnes lingua, institutis, legibus inter se
+            differunt. Gallos ab Aquitanis Garunna flumen, a Belgis Matrona et
+            Sequana dividit. Horum omnium fortissimi sunt Belgae, propterea quod
+            a cultu atque humanitate provinciae longissime absunt minimeque ad
+            eos mercatores saepe commeant atque ea, quae ad effeminandos animos
+            pertinent, important proximique sunt Germanis, qui trans Rhenum
+            incolunt, quibuscum continentur bellum gerunt. Qua de causa Helvetii
+            quoque reliquos Gallos virtute praecedunt, quod fere cotidianis
+            proeliis cum Germanis contendunt, cum aut suis finibus eos prohibent
+            ut ipsi in eorum finibus bellum gerunt. Eorum una pars, quam Gallos
+            obtinere dictum est, initium capit a flumine Rhodano, continetur
+            Garunna flumine, Oceano, finibus Belgarum, attingit etiam ab
+            Sequanis et Helvetiis flumen Rhenums, vergit ad septentriones.
+            Belgae ab extremis Galliae finibus oriuntur, pertinent ad inferiorem
+            partem fluminis Rheni, spectant in septentrionem et orientem solem.
+            Aquitania a Garunna flumine ad Pyrenaeos montes et eam partem
+            Oceani, quae est ad Hispaniam, pertinet, spectat inter occasum solis
+            et septentriones.
+          </p>
+        </article>
+        <article>
+          <h2>De bello gallico IIb</h2>
+          <p>
+            Apud Helvetios longe nobilissimus fuit et ditissimus Orgetorix. Is
+            M. Messala M. Pisone consulibus regni cupiditate inductus
+            coniurationem nobilitatis fecit et civitati persuadet, ut de finibus
+            suis cum omnibus copiis exirent : perfacile esse, cum virtute
+            omnibus praestarent, totius Galliae imperio potiri. Id hoc facilius
+            iis persuasit, quod undique loci natura Helvetii continentur : una
+            ex parte flumine Rheno latissimo atque altissimo, qui agrium
+            Helvetium a Germanis dividit, altera ex parte monte Iura altissimo,
+            qui est inter Sequanos et Helvetios, tertia lacu Lemanno et flumine
+            Rhodano, qui provinciam nostram ab Helvetiis dividit. His rebus
+            fiebat ut et minus late vagarentur et minus facile finitimis bellum
+            inferre possent; qua ex parte homines bellandi cupidi magno dolore
+            adficiebantur. Pro multitudine autem hominum et pro gloria belli
+            atque fortitudinis angustos se fines habere arbitrabantur, qui in
+            longitudinem milia passuum CCXL, in latitudinem CLXX patebant.
+          </p>
+        </article>
+        <article>
+          <h2>De bello gallico IIIb, pos fixed</h2>
+          <p>His rebus adducti et auctoritate Orgetorigis.</p>
+        </article>
+      </section>
+      <hr />
+      <section class="test-position-sticky">
+        <h2>Beispiel position sticky</h2>
+        <article>
+          <h2>De bello gallico Ic</h2>
+          <p>
+            Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae,
+            aliam Aquitani, tertiam, qui ipsorum lingua Celtae, nostra Galli
+            appellantur. Hi omnes lingua, institutis, legibus inter se
+            differunt. Gallos ab Aquitanis Garunna flumen, a Belgis Matrona et
+            Sequana dividit. Horum omnium fortissimi sunt Belgae, propterea quod
+            a cultu atque humanitate provinciae longissime absunt minimeque ad
+            eos mercatores saepe commeant atque ea, quae ad effeminandos animos
+            pertinent, important proximique sunt Germanis, qui trans Rhenum
+            incolunt, quibuscum continentur bellum gerunt. Qua de causa Helvetii
+            quoque reliquos Gallos virtute praecedunt, quod fere cotidianis
+            proeliis cum Germanis contendunt, cum aut suis finibus eos prohibent
+            ut ipsi in eorum finibus bellum gerunt. Eorum una pars, quam Gallos
+            obtinere dictum est, initium capit a flumine Rhodano, continetur
+            Garunna flumine, Oceano, finibus Belgarum, attingit etiam ab
+            Sequanis et Helvetiis flumen Rhenums, vergit ad septentriones.
+            Belgae ab extremis Galliae finibus oriuntur, pertinent ad inferiorem
+            partem fluminis Rheni, spectant in septentrionem et orientem solem.
+            Aquitania a Garunna flumine ad Pyrenaeos montes et eam partem
+            Oceani, quae est ad Hispaniam, pertinet, spectat inter occasum solis
+            et septentriones.
+          </p>
+        </article>
+        <article>
+          <h2>De bello gallico IIc, pos sticky</h2>
+          <p>
+            Apud Helvetios longe nobilissimus fuit et ditissimus Orgetorix. Is
+            M. Messala M. Pisone consulibus regni cupiditate inductus
+            coniurationem nobilitatis fecit et civitati persuadet, ut de finibus
+            suis cum omnibus copiis exirent : perfacile esse, cum virtute
+            omnibus praestarent, totius Galliae imperio potiri. Id hoc facilius
+            iis persuasit, quod undique loci natura Helvetii continentur : una
+            ex parte flumine Rheno latissimo atque altissimo, qui agrium
+            Helvetium a Germanis dividit, altera ex parte monte Iura altissimo,
+            qui est inter Sequanos et Helvetios, tertia lacu Lemanno et flumine
+            Rhodano, qui provinciam nostram ab Helvetiis dividit. His rebus
+            fiebat ut et minus late vagarentur et minus facile finitimis bellum
+            inferre possent; qua ex parte homines bellandi cupidi magno dolore
+            adficiebantur. Pro multitudine autem hominum et pro gloria belli
+            atque fortitudinis angustos se fines habere arbitrabantur, qui in
+            longitudinem milia passuum CCXL, in latitudinem CLXX patebant.
+          </p>
+        </article>
+        <article>
+          <h2>De bello gallico IIIc</h2>
+          <p>
+            His rebus adducti et auctoritate Orgetorigis. Ea res est Helvetiis
+            per indicium enuntiata. Moribus suis Orgetorigem ex vinculis causam
+            dicere coegerunt; damnatum poenam sequi oportebat ut igni
+            cremaretur, die constituta causae dictionis Orgetorix ad iudicium
+            omnem suam familiam, ad hominum milia decem, undique coegit et omnes
+            clientes obaeratosque suos, quorum magnum numerum habebat, eodem
+            conduxit; per eos ne causam diceret se eripuit. Cum civitas ob eam
+            rem incitata armis suum exsequi conaretur multitudinemque hominum ex
+            agris magistratus cogerent, Orgetorix mortuus est; neque abest
+            suspicio, ut Helvetii arbitrantur, quin ipse sibi mortem
+            consciverit.
+          </p>
+          <p>
+            His rebus adducti et auctoritate Orgetorigis permoti constituerant
+            ea quae ad profiscendum pertinerent comparare, iumetorum et carrorum
+            quam maximum numerum coemere, sementes quam maximas facere, ut in
+            itinere copia frumenti suppeteret, cum proximis civitatibus pacem et
+            amicitiam confirmare. Ad eas res conficiendas biennium sibi satis
+            esse duxerunt, in tertium annum profectionem lege confirmant. Ad eas
+            res conficiendas Orgetorix deligitur. Is sibi legationem ad
+            civitates suscepit. In eo itinere persuadet Castico Catamantaloedis
+            filio Sequano, cuius pater regnum in Sequanis multos annos
+            obtinuerat et ab senatu populi Romani amicus appellatus erat, ut
+            regnum in civitate sua occuparet, quod pater ante habuerat; itemque
+            Dumnorigo Haeduo, fratri Diviciaci, qui eo tempore principatum
+            obtinebat ac maxime plebi acceptus erat, ut idem conaretur persuadet
+            eique filiam suam in matrimonium dat. Perfacile factu esse illis
+            probat conata perficere propterea quod ipse suae civitatis imperium
+            obtenturus esset : non esse dubium, quin totius Galliae plurimum
+            Helvetii possent; se suis copiis suoque exercitu illis regna
+            conciliaturum confirmat. Hac oratione adducti inter se fidem et ius
+            iurandum dant et regno occupato per tres potentissimos ac
+            firmissimos populos totius Galliae sese potiri posse sperant.
+          </p>
+          <p>
+            Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae,
+            aliam Aquitani, tertiam, qui ipsorum lingua Celtae, nostra Galli
+            appellantur. Hi omnes lingua, institutis, legibus inter se
+            differunt. Gallos ab Aquitanis Garunna flumen, a Belgis Matrona et
+            Sequana dividit. Horum omnium fortissimi sunt Belgae, propterea quod
+            a cultu atque humanitate provinciae longissime absunt minimeque ad
+            eos mercatores saepe commeant atque ea, quae ad effeminandos animos
+            pertinent, important proximique sunt Germanis, qui trans Rhenum
+            incolunt, quibuscum continentur bellum gerunt. Qua de causa Helvetii
+            quoque reliquos Gallos virtute praecedunt, quod fere cotidianis
+            proeliis cum Germanis contendunt, cum aut suis finibus eos prohibent
+            ut ipsi in eorum finibus bellum gerunt. Eorum una pars, quam Gallos
+            obtinere dictum est, initium capit a flumine Rhodano, continetur
+            Garunna flumine, Oceano, finibus Belgarum, attingit etiam ab
+            Sequanis et Helvetiis flumen Rhenums, vergit ad septentriones.
+            Belgae ab extremis Galliae finibus oriuntur, pertinent ad inferiorem
+            partem fluminis Rheni, spectant in septentrionem et orientem solem.
+            Aquitania a Garunna flumine ad Pyrenaeos montes et eam partem
+            Oceani, quae est ad Hispaniam, pertinet, spectat inter occasum solis
+            et septentriones.
+          </p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
